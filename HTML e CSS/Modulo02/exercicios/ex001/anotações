@@ -1,0 +1,78 @@
+
+======================================================================================================================
+
+Hexadecimal: Decimal -> 0 1 2 3 4 5 6 7 8 9
+             Hexadecimal -> 0 1 2 3 4 5 6 7 8 9 A B C D E F
+            
+RGB (Red, Green, Blue) -> 255 é o valor mais alto
+
+HSL (Hue, Saturation, Luminosity)
+
+======================================================================================================================
+
+ALFA = Opacidade / Transparência -> Os valores de tranparência vão de 0 a 1
+
+RGBA (Red, Green, Blue, Alfa)
+
+HSLA (Hue, Saturation, Luminosity) 
+
+Hexadecimal -> Adicionasse mais dois valore atrás so código
+
+======================================================================================================================
+
+Cores Primárias -> Vermelho
+                   Amarelo
+                   Azul
+
+Cores Secundárias -> Laranja
+                     Verde
+                     Vileta
+
+Cores Terciárias (cores em tons pastéis) -> Amarelo-Esverdeado (Os nomes das cores primárias sempre ficarão na frente do nome das cores secundárias)
+                                            Amarelo-Alaranjado
+                                            Vermelho-Alaranjado 
+                                            Vermelho-Arroxeado
+                                            Azul-Arroxeado
+                                            Azul-Esverdeado
+
+======================================================================================================================
+
+Dividir o circulo cromatico trassando uma linha onde comeca entre o Amarelo e Amarelo-Esverdeado e ermina entre o Violeta e Vermelho-Arroxeado.
+
+Lado Esquerdo -> Cores Frias -> Amarelo-Esverdeado 
+                                Verde 
+                                Azul-Esverdeado 
+                                Azul
+                                Azul-Arroxeado
+                                Violeta
+
+Lado Direito -> Cores Quentes -> Amarelo 
+                                 Amarelo-Alaranjado 
+                                 Laranja
+                                 Vermelho-Alaranjado
+                                 Vermelho
+                                 Vermelho-Arroxeado
+
+======================================================================================================================
+
+Cores Complementares -> Cores com mais contraste entre si (opostas) -> Ex: Amarelo  - Violeta
+                                                                           Vermelho - Verde
+                                                                           Azul - Laranja
+
+Core Análogas -> Cores vizinhas -> Ex: Violeta - Vermelho-Alaranjado - Azul-Arroxeado; 
+
+Cores Análogas e Complementares -> Cores vininhas com a oposta da primário (Principal) -> Ex: Violeta - Vermelho-Arroxeado - Azul-Arroxeado - Amarelo;
+
+Cores Análogas Relacinada -> Duas cores primárias, pulasse uma casa -> Ex: Amarelo - Amarelo-Alaranjado - Vermelho-Alaranjado;
+
+Cores Intercaladas -> Pulasse uma casa em relação a cor primária -> Ex: Amarelo - Laranja - Vermelho;
+
+Cores Triadicas -> Cor primária, pulasse três cores pega a cor e pulasse mais três cores (Gerando um Triângulo Equilatero) -> Ex: Amarelo - Vermelho - Azul;
+
+Cores em Quadrado -> Cor primária, pulasse duas casa pega a cor, pulasse duas casas pega a cor e pulasse duas casas e pega a cor (Gerando um Quadrado) -> Ex: Amarelo - Laranja - Violeta - Azul-Esverdeado;
+
+Cores Tetradicas -> Cor primária e a oposta dela, outra cor primária e a oposta a ela (Gerando um Retângulo) -> Ex: Vermelho - Verde , Azul - Laranja;
+
+Monocromia -> Cor primária, modificasse a saturação e o brilho (Degrade) -> Laranja...
+
+==================================================================================================

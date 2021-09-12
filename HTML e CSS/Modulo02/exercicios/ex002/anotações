@@ -1,0 +1,50 @@
+ 
+ =================================================================================================
+
+ VIEWPORT = Tamanho da tela
+
+ Medidas Absolutas: cm (centimetro)
+                    mm (milimetro)
+                    in (polegada)
+                    px (pixel)
+                    pt (ponto, relativo a medida de um editor de texto) 
+                    pc (paica);
+
+(ponto e paica são medidas para papel, mas é possivel usar na web)
+(Utilizasse mais o px)  
+
+ Medidas Relativas: em (Relativo ao "M" maisculo de uma fonte) 
+                    ex (relativo a altura-x de uma fonte) 
+                    rem (relativo a fonte configurado no body) 
+                    vw (relativo a largura da viewport)
+                    vh (relativo a altura da viewport)% 
+                    
+(Utilizasse mais o em)
+
+16px = 1em
+32px = 2em
+
+==================================================================================================
+
+Weight (peso) 
+Width (largura) 
+Heigth (altura)
+
+==================================================================================================
+Lighter 
+Normal 
+Bold 
+Bolder
+
+==================================================================================================
+
+Shorthand font:  font-style -> font-weight -> font-size -> font-family   
+
+font-family: 'work sans', sans-serif;
+font-weight: bolder;
+font-size: 3em;
+font-style: italic;
+
+font: italic bolder 3em 'work sans', sans-serif;
+
+==================================================================================================

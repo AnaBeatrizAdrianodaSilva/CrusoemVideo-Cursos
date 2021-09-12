@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video src="videos/meu-video.mp4" width="500" height="500" controls loop poster="image/tog.png"></video>
+    <br />
+    <br />
+    <video src="videos/Meu-Video-1.m4v" width="500" height="500" loop controls poster="image/tog.png"></video>
+    <br />
+    <br />
+    <video src="videos/Meu-Video-1.webm" width="500" height="500" loop controls poster="image/tog.png"></video>
+    <br />
+    <br />
+    <video width="500" height="500" poster="image/tog.png" controls>
+        <source src="videos/meu-video.mp4" type="video/mp4">
+        <source src="videos/Meu-Video-1.m4v" type="video/mp4">
+        <source src="videos/Meu-Video-1.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="400" src="https://www.youtube.com/embed/uBPAczmMyz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/242079664?h=31fb7604d6&color=ff0179&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>

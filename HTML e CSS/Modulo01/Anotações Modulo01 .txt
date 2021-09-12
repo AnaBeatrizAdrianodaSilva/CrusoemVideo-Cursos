@@ -1,0 +1,187 @@
+
+Repositótios públicos -> github.com/gustavoguanabara
+                                           gustavoguanabara.github.io
+
+
+Referencias de aprendizagem on-line -> Referência MDN
+                                                                     W3C Standards
+                                                                     WHATWG Living Standards
+                                                                      W3Schools 
+
+Livros -> Orelly: Html5,  CSS,  Flexbox in CSS,  Grid Layout in CSS
+                 Html5 (Mauricio Samy Silva)
+                 CSS3 (Mauricio Samy Silva)
+                 Fundamentos de Html5 e CSS3 (Mauricio Samy Silva)
+                 CSS Grid Layout (Mauricio Samy Silva)                   
+
+Livros Visuais -> Html5 e CSS (Elizabeth Castro e Bruce Hyslop)
+                               Html e CSS (Jon Ducket)
+                               Use a cabeça HTML e CSS (Elizabeth Robson e Eric Freeman) 
+                               Crie seu próprio site (Nate  Cooper e Kimm Gee)
+
+Livros de Design -> Curso de design gráfico (David Dabner e outros)
+
+======================================================
+
+0 -> binary digit -> bit
+1 -> binary digit -> bit
+01000001 (A) -> bity
+
+um bity é um conjunto de oito bit´s
+
+o computador só entendo bit´s e bity´s
+
+1024 bytes = 1 KB -> 1 KiloBity
+
+1024 KB = 1 MB -> 1 MegaBity
+
+1024 MB = 1 GB -> 1 GibaBity
+
+1024 GB = 1 TB -> 1 TeraBity
+
+1024 TB = 1 PB -> 1 PetaBity     
+
+1024 PB = 1 EB -> 1 ExaBity
+
+1024 EB = 1 ZB -> 1 ZetaBity
+
+10214 ZB = 1 YB -> 1 YotaBity
+
+Colocar a letra 'B' minuscula faz diferença.
+
+MB -> MegaBity
+Mb -> Megabits 
+
+Usasse MegaBity/GigaBity/TeraBity/etc.. para representar armazenamento.
+ex: Comprei um pendrive de um giga (GigaBity)
+
+Usasse MegaBits/GigaBits/Terabits/etc... para representar transmissão
+ex: Minha internet é de 200 megas (200 MegaBits)
+
+======================================================
+
+Dominio -> Nome Único
+                      Pago anualmente
+                      Vários TLDs (Top Level Domeins)
+                       
+
+Hospedagem -> Espaço para armazenar arquivos
+                             Pago mensalmente
+                             Escolhe por espaço, memória e recursos
+
+URL (uniform Resorcer Location - Localizador de recursos únicos/uniforme)  -> endereço de uma página
+
+www.github.com/gustavoguanabara -> URL
+  |            |          |              |
+  |    domínio    |          caminho
+  | 
+  |                TLD  
+Sub-domínio         
+
+==========================================================
+
+HTML e CSS -> Não são Línguagens de programação 
+
+HTML é uma linguagem de marcação
+
+HTML -> HyperText Markup Language
+
+CSS ->  Cascading Style Sheets
+
+HTML é uma linguagem focada em conteúdo -> Textos
+                                                                                      Imagens
+                                                                                      Vídeos
+                                                                                       Tabelas
+
+CSS é uma linguagem focada em design -> Cores
+                                                                           Sombras
+                                                                           Tamanhos 
+                                                                           Posicionamento
+
+JavaScript é uma linguagem focada em interesação -> Manus
+                                                                                              Animações
+                                                                                              Popups
+                                                                                               Validações 
+
+==========================================================
+
+Conteúdo em HTML:
+
+tags -> <> </>
+
+<h1>Exemplo de título</h1> 
+    |                                         |
+abertura de tag             fechamento de tag
+
+<p>Exemplo de paragrafo </p>
+
+<img src="foto.png" alt="Exemplo de foto" />
+     |     |                 |    |                   |
+     |   parâmetro   |  parâmetro      |
+     |                       Valor                   Valor
+abertura de tag
+
+Estilo em CSS:
+
+Seletor
+ |       declaração
+h1 {     |
+    font-family: Arial;
+    font-size: 20pt;
+    color: blue;
+       |        |
+       |      Valor
+propriedade
+
+}   
+
+Toda declaração em CSS precisa terminar com ponto e vírgula (;)
+
+==========================================================
+
+Front-end -> Desenvolvedor que trabalha com html, css e javascript - client-side
+
+Back-end -> Desenvolvedor que trabalha com php, python, csharp, java, etc... - server-side
+
+Full-Stack -> Desenvolvedor que trabalha tanto com front-end quanto com back-end
+
+
+
+
+
+s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
