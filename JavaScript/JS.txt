@@ -1,0 +1,10 @@
+
+
+JavaScript da O´relly
+
+JavaScript Guia do programador - Mauricio Sami Silva
+
+
+// -> Comentar uma única linha em JavaScript
+
+/**/ -> Comentar mais de uma linha em JavaScript

@@ -1,0 +1,40 @@
+
+================================================================================================================================================
+
+Em JavaScript '=' se le como 'Recebe'
+
+Null -> Nada
+
+Var = Variavel
+
+*No JavaScript moderno, laém de utlilizar a palavra 'var', também podemos usar a palavra 'let'*
+
+================================================================================================================================================
+
+Idenntificadore:
+
+- Podem começar com letra, '$' ou '_'
+
+- Não podem começar com números
+
+- É possível usar letras ou números
+
+- É possível usar acentos e símbolos
+
+- Não podem conter espaços
+
+- Não podem ser palavras reservadas (palavras que o JS usa como comando, EX: alert)
+
+Dicas -> Maiúsculas e minúsculas fazem diferença
+         Tente escolher nomes coerentes para as variáveis 
+         Evite se tornar um 'programador alfabeto (var = a ou b ou c ...)' ou um 'programador contador (var = n1 ou n2 ou n3 ...)'
+
+Data Types:
+
+Number -> 5, 18, -12 (Números inteiros)
+          0.5, -15.9, 8.0 (Números reias, com ponto flutuante, float)
+
+String -> "Google", 'JavaScript', `Maria` (Cadeia de Caracteris)
+
+Booleam -> true, false
+
