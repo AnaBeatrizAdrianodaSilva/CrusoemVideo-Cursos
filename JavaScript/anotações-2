@@ -132,8 +132,114 @@
            var = x-1 = 5 -> x --
         */        
 
-        - relacionais ->
+        - relacionais -> Toda expressão que tiver um operador relacional, terá como resultado um valor booleano (true - false). Não possuem ordem de precedência
 
-        - lógicos ->
+        /*
+                Operadores Relacionais:
+
+                > -> Maior
+                < -> Menor
+                >= -> Maior ou Igual
+                <= -> Menor ou Igual 
+                == -> Igual
+                != -> Diferente
+
+                Ex: 
+
+                5 > 2 = true
+                7 < 4 = false
+                8 >= 8 = true
+                9 <= 7 = false
+                5 == 5 = true
+                4 != 4 = false
+
+                Ex2:
+
+                preço >= 200.5            // o preço é maior ou igual a 200.50?
+                idade < 18               // a idade é menor do que 18?
+                curso == 'JavaScript'   // o curso é JavaScript?
+                n1 != n2               // o primeiro número é diferente do segundo?
+
+                Operadores Relacionais de identdade:
+
+                 === -> Identicos
+                 !== -> Desigual restrito -> Tipos diferentes mas valor interno é o mesmo
+
+                Ex:
+
+                 5 === '5' = false
+                 5 === 5 = true
+                 5 != '5' = false
+                 5 !== '5' = true
+        */
+
+        - lógicos -> Toda expressão que tiver um operador lógico, terá como resultado um valor booleano (true - false).
+
+        /*
+                Operadores Lógicos:
+
+                ! -> Negação -> Não
+                && -> Conjunção -> E
+                || -> Disjunção -> Ou
+
+                Ordem de Precedência:
+
+                1° !
+                2° &&
+                3° ||
+
+                Negação(!):
+
+                Depois da ! só posso ter um resultado: true, false ou uma expressão em que o resultado é true ou false.
+
+                ! true -> false
+                ! false -> true
+
+                Conjunção(&&):
+
+                Depois dos && só posso ter dois valores: true ou false
+
+                true && true -> true
+                true && false -> false
+                false && true -> false
+                false && false -> false
+
+                Disjunção(||):
+
+                Depois || só pode ter dois valores: true ou false
+
+                true || true -> true
+                true || false -> true
+                false || true -> true
+                false || false -> false
+
+                Ex: 
+
+                idade >= 15 && idade <= 17             // a idade está entre 15 e 17?
+                estado == 'RJ' || estado == 'SP'      // o estado é RJ ou SP?
+                salário > 1500 && sexo != 'M'        // o salário é acima de 1500 e não é um homem?
+        */
 
         - ternário ->
+
+        /*
+                Operadores ternários:
+
+                ? -> O  qua vai acontecer quando o teste lógico for verdadeiro
+                : -> O que vai acontecer quando o teste lógico for falso
+
+                Ex:
+
+                média >= 7.0 ? "Aprovado" : "Reprovado" -> 
+
+                média = 5.5
+                média > 7 = Reprovado
+        */
+        /*
+                Ordem de Precedência:
+
+                1° - Aritmético
+                2° - Relacionais
+                3° - Lógicos
+                4° - ternário
+        */
