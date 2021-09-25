@@ -66,4 +66,74 @@
 
             n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) = € 1.545,50 -> Transforma em Euro
 
-       
+-----------------------------------------------------------------
+
+                OPERADORES      
+
+        - aritméticos -> Usados para fazer conta -> 5 '+' 2 = 7
+                                                    5 '-' 2 = 3
+                                                    5 '*' 2 = 10
+                                                    5 '/' 2 = 2.5
+                                                    5 '%' 2  = 1 
+                                                    5 '**' 2 = 25
+
+        /* '%' é o resto da divisão inteira (EX: 5 dividido por 2 da 2.5, mas o resto dessa divisão é 1 por faltar apenas o 1 para completar a divisão) */
+
+        /* '**' significa potencia */
+
+        /*
+        
+           Ordem de precedencia:
+
+           1° - ()
+           2° - **
+           3° - *, /, %
+           4° - +, - 
+        */
+
+        - atribuição ->
+
+        /*
+         
+           atribuição simples:
+
+           var a = 5 + 3 = 8
+           var b = a % 5 = 3
+           var c = 5 * b ** 2 = 45
+           var d = 10 - a / 2 = 6
+           var e = 6 * 2 / d = 2
+           var f = b % e + 4 e = 3
+
+           Auto-atribuições:
+
+           var n = 3
+           n = n + 4 = 7
+           n = n - 5 = 2
+           n = n * 4 = 8
+           n = n / 2 = 4
+           n = n ** 2 = 16
+           n = n % 5 = 1
+
+           Simplificando (Só pode simplificar se for a mesma variavel, n = x + 4 não poderia ocorrer uma simplificação por naõ ter a mesma variavel.):
+           
+           n +=4
+           n -= 5
+           n *= 4
+           n /= 2
+           n **= 2
+           n %= 5
+        */   
+
+        /*
+           Incremento:
+
+           var x = 5
+           var = x +1 = 6 -> x ++
+           var = x-1 = 5 -> x --
+        */        
+
+        - relacionais ->
+
+        - lógicos ->
+
+        - ternário ->
