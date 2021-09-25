@@ -79,7 +79,7 @@
 
         /* '%' é o resto da divisão inteira (EX: 5 dividido por 2 da 2.5, mas o resto dessa divisão é 1 por faltar apenas o 1 para completar a divisão) */
 
-        /* '**' significa potencia */
+        /* ** -> significa potencia */
 
         /*
         
@@ -95,7 +95,7 @@
 
         /*
          
-           atribuição simples:
+           Atribuição simples:
 
            var a = 5 + 3 = 8
            var b = a % 5 = 3

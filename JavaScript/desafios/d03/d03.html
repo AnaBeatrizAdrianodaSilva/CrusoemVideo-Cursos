@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antes e Depois</title>
+</head>
+<body style="background-color: rgb(245, 231, 214);">
+    <h1>Antes e depois</h1>
+    <button onclick="button()" style="width: 300px; height: 70px; font-size: 1.5em; font-family: serif;">Antecessor e Sucessor</button>
+    <script>
+        function button() {
+            var n1 = Number(window.prompt('Digite um número inteiro qualquer'))
+            var antes = n1 - 1
+            var depois = n1 + 1
+            window.alert(`Antes de ${n1}, temos o número ${antes}. \n Depois de ${n1}, temos o número ${depois}.`)
+        }
+    </script>
+</body>
+</html>
