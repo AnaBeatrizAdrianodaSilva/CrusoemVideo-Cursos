@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando Troco</title>
+</head>
+<body style="background-color: rgb(238, 225, 209);">
+    <h1>Calculando Troco</h1>
+    <button onclick="button()" style="width: 300px; height: 70px;">Comprar produto</button>
+    <script>
+        function button() {
+           var compra =  window.prompt('Que produto você está comprando?') 
+           var valor = Number(window.prompt(`Quanto custa ${compra} que você está comprando?`))
+           var custo = Number(window.prompt(`Qual o valor que você deu para pagar ${compra}`))
+           var troco = Number(valor - custo)
+           window.alert(`Você comprou ${compra} que custou ${valor.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}. \n Deu ${custo.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} em dinheiro e vai receber ${troco.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} de troco. \n Volte Sempre!`)
+        }
+    </script>
+</body>
+</html>
