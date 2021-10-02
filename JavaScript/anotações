@@ -7,7 +7,7 @@ Null -> Nada
 
 Var = Variavel
 
-*No JavaScript moderno, laém de utlilizar a palavra 'var', também podemos usar a palavra 'let'*
+*No JavaScript moderno, além de utlilizar a palavra 'var', também podemos usar a palavra 'let'*
 
 ================================================================================================================================================
 
@@ -25,9 +25,9 @@ Idenntificadore:
 
 - Não podem ser palavras reservadas (palavras que o JS usa como comando, EX: alert)
 
-Dicas -> Maiúsculas e minúsculas fazem diferença
-         Tente escolher nomes coerentes para as variáveis 
-         Evite se tornar um 'programador alfabeto (var = a ou b ou c ...)' ou um 'programador contador (var = n1 ou n2 ou n3 ...)'
+Dicas -> Maiúsculas e minúsculas fazem diferença;
+         Tente escolher nomes coerentes para as variáveis ;
+         Evite se tornar um 'programador alfabeto (var = a ou b ou c ...)' ou um 'programador contador (var = n1 ou n2 ou n3 ...)'.
 
 Data Types:
 
@@ -36,5 +36,5 @@ Number -> 5, 18, -12 (Números inteiros)
 
 String -> "Google", 'JavaScript', `Maria` (Cadeia de Caracteris)
 
-Booleam -> true, false
+Booleam -> true, false 
 
