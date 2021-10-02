@@ -11,25 +11,25 @@
 
 =================================================================================================
 
-        Converção de string para number
+        Converção de string para number: 
 
-        Number.parseInt(n) -> Número Inteiro
+        -  Number.parseInt(n) -> Número Inteiro
          var n1 = Number.parseInt(window.prompt('Digite um número:'))
 
-        Number.parseFloat(n) -> Número Real (Que possui ponto flutuante)
+        - Number.parseFloat(n) -> Número Real (Que possui ponto flutuante)
          var n1 = Number.parseFloat(window.prompt('Digite um número:'))
 
-        Simplificação : Number(n)
+        - Simplificação : Number(n)
          var n1 = Number(window.prompt('Digite um número:'))
 
 =======================================================================================================
 
-        Converção de number para string
+        Converção de number para string: 
 
-        n.toString()
+        - n.toString()
         window.alert(`A soma dos valore é ${s.toString}`)
 
-        simplicação: String(n)
+        - simplicação: String(n)
         window.alert(`A soma dos valore é ${String(s)}`)
 
 ===================================================================================================
@@ -95,8 +95,6 @@
 
         - atribuição ->
 
-        /*
-         
            Atribuição simples:
 
            var a = 5 + 3 = 8
@@ -124,7 +122,6 @@
            n /= 2
            n **= 2
            n %= 5
-        */   
 
         /*
            Incremento:
@@ -138,7 +135,7 @@
 
         - relacionais -> Toda expressão que tiver um operador relacional, terá como resultado um valor booleano (true - false). Não possuem ordem de precedência
 
-        /*
+        
                 Operadores Relacionais:
 
                 > -> Maior
@@ -175,13 +172,13 @@
                  5 === 5 = true
                  5 != '5' = false
                  5 !== '5' = true
-        */
+        
 
 -------------------------------------------------------------------------------------------------------------------
 
         - lógicos -> Toda expressão que tiver um operador lógico, terá como resultado um valor booleano (true - false).
 
-        /*
+        
                 Operadores Lógicos:
 
                 ! -> Negação -> Não
@@ -224,13 +221,13 @@
                 idade >= 15 && idade <= 17             // a idade está entre 15 e 17?
                 estado == 'RJ' || estado == 'SP'      // o estado é RJ ou SP?
                 salário > 1500 && sexo != 'M'        // o salário é acima de 1500 e não é um homem?
-        */
+        
 
 --------------------------------------------------------------------------------------------------------------------------
 
         - ternário ->
 
-        /*
+        
                 Operadores ternários:
 
                 ? -> O  qua vai acontecer quando o teste lógico for verdadeiro
@@ -242,7 +239,7 @@
 
                 média = 5.5
                 média > 7 = Reprovado
-        */
+        
         /*
                 Ordem de Precedência:
 
@@ -253,3 +250,71 @@
         */
 
 ===========================================================================================================================
+
+DOM -> Document Object Model -> Permite acesso aos compomentes internos do website. 
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Árvore DOM:
+
+1° window
+2° location, document, history e etc...
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+window -> Janela
+location -> Localização do site
+document -> documento atual
+history -> de onde você veio, aonde você vai, ajuda na navegação
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Dentro deum document exite um HTML e que tem dois filhos chamados HEAD e BODY. Dentro dessas tags (head e body) exitem outras tags como por exemplo as tags meta e tittle que são filhas de heade, e header e main que são filhas do body.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+É possivel selecionar os elementos por meio de Marce, ID, Nome, Classe e Seletor.
+
+Marca -> getElementsByTagName()
+
+ID -> getElemtsByid()
+
+Nome -> getElementsByName()
+
+Classe -> getElementsByClassName()
+
+Seletor -> querySelector() -> Singular
+           querySelectorAll() -> Plural
+
+---------------------------------------------------------------------------------------------------------------------------
+
+- Marca:
+        var corpo = window.document.body
+        corpo.style.background = 'black'
+
+        var p1 = window.document.getElementsByTagName('p')[0]
+        document.write('Está escrito assim:' + p1.innerText)
+
+- ID:
+        var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'Estou aguardando...'
+        window.document.getElementById('msg').innerText = 'Olá'
+
+- Name:
+        var d = window.document.getElementsByName('msg') [0]
+        d.innerText = 'Olá!'
+        
+- Class:
+         var d = window.document.getElementsByClassName('msg') [0]
+        d.innerText = 'Olá!'
+
+- Seletor:
+
+        Id:
+        var d = window.document.querySelector('div#msg')
+        d.innerHTML = `Olá!`
+        
+        Class:
+        var d = window.document.querySelector('div.msg')
+        d.innerHTML = `Olá!`
