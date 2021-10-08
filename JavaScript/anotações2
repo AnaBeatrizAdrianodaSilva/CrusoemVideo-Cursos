@@ -273,7 +273,7 @@ Dentro deum document exite um HTML e que tem dois filhos chamados HEAD e BODY. D
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-É possivel selecionar os elementos por meio de Marce, ID, Nome, Classe e Seletor.
+É possivel selecionar os elementos por meio de Marca, ID, Nome, Classe e Seletor.
 
 Marca -> getElementsByTagName()
 
@@ -313,8 +313,31 @@ Seletor -> querySelector() -> Singular
 
         Id:
         var d = window.document.querySelector('div#msg')
-        d.innerHTML = `Olá!`
+        d.innerHTML = 'Olá!'
         
         Class:
         var d = window.document.querySelector('div.msg')
-        d.innerHTML = `Olá!`
+        d.innerHTML = 'Olá!'
+
+---------------------------------------------------------------------------------------------------------
+
+Eventos DOM:
+
+Um evento é tudo aquilo que pode aconter com por exemplo uma div. 
+
+---------------------------------------------------------------------------------------------------------
+
+Função é um conjunto de códigos que vão ser excutadas apenas quando o evento ocorrer.
+
+Um bloco em JavaScript é delimitado por chaves ( {} ) 
+
+Esse bloco tem que ser nomeado por uma function (Significa função), e esse nomes gerealmente são ações que fazemos, depois do nome da function é obrigatório colocar parenteses, e dentro desses parenteses opcionalmente é possivel colocar alguns parametros.
+
+Ex (ex009 e ex010):
+
+function ação() {
+
+}
+
+
+
