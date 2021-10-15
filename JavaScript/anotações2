@@ -339,5 +339,29 @@ function ação() {
 
 }
 
+===============================================================================================================
+
+Condições
+
+uma cindição pode ter duas direções. São executadas de modo diferente, mas chega no resultado final do mesmo geito.
+
+(Está é um condição) if (condição) {
+
+} (Está  é outra condição) else {
+
+}
+
+if -> significa SE
+
+else -> significa SE NÃO
+
+------------------------------------------------------------------------------------------------------------------
+
+Tipos de Condição
+
+1° Condição Simples -> Só possui um único bloco;
+
+2° -> Se a condição for verdadeira terá algo para fazer, mas se a condição for falsa terá outra coisa para fazer.
+
 
 
