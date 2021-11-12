@@ -198,7 +198,7 @@
                 ! true -> false
                 ! false -> true
 
-                Conjunção(&&):
+                Conjunção(&&, Conectivo: E):
 
                 Depois dos && só posso ter dois valores: true ou false
 
@@ -207,7 +207,7 @@
                 false && true -> false
                 false && false -> false
 
-                Disjunção(||):
+                Disjunção(||, Concetivo: OU):
 
                 Depois || só pode ter dois valores: true ou false
 
@@ -361,7 +361,47 @@ Tipos de Condição
 
 1° Condição Simples -> Só possui um único bloco;
 
-2° -> Se a condição for verdadeira terá algo para fazer, mas se a condição for falsa terá outra coisa para fazer.
+2° Condição Composta -> Se a condição for verdadeira terá algo para fazer, mas se a condição for falsa terá outra coisa para fazer.
 
+---------------------------------------------------------------------------------------------------------------------
 
+Condição Aninhda
 
+É possivel colocar outra condição dentro de uma condição
+
+Ex: if (cond1) {
+        bloco1
+} else {
+        if (cond2) {
+                bloco2
+        } else {
+                bloco3
+        }
+}
+
+------------------------------------------------------------------------------------------------------------------------
+
+Condição Múltipla
+
+Serve para valores fixos.
+Existe a possibilidade de outros valores(fixos).
+
+É obrigatório o uso do 'break' no final de cada bloco do case.
+
+switch (expressão) {
+        case valor 1:
+                bloco1
+                break
+
+        case valor 2:
+                bloco2
+                break
+
+        case valor 3:
+                bloco3
+                break
+                
+        default:
+                bloco4
+                break(Opcional)
+}
