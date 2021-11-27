@@ -11,7 +11,7 @@ function carregar() {
         img.src = 'manhã.png'
         document.body.style.background = '#FEC466'
         title.innerHTML = `<h1>Bom Dia!</h1>`
-    } else if (hora >= 12 && hora <= 18) {
+    } else if (hora >= 12 && hora <= 18) { 
         //Boa tarde!
         img.src = 'tarde.png'
         document.body.style.background = '#C4591C'
