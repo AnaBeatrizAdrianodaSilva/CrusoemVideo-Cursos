@@ -405,3 +405,49 @@ switch (expressão) {
                 bloco4
                 break(Opcional)
 }
+
+=============================================================================================================================
+
+Criação do img pelo JS dinamicamente
+
+var img = document.createElement('img') -> Criou uma 'tag' img
+
+img.setAttribute('id', 'foto') -> Adicionou um id chamado foto
+
+img.setAttribute('src', 'nome do arquivo') -> Adicionou um atributo src com o nome da imagem
+
+============================================================================================================================
+
+Repetições
+
+while -> Teste Lógico primeiro, para em seguida realizar o bloco, depois volta para o teste lógico e realiza o bloco novamente;
+
+do -> Bloco efetuado primeiro, para em seguida realizar o teste lógico, depois volta para o bloco e realiza o teste lógico novamente;
+
+for -> Realiza primeiro a inicialização, o teste lógico e o incremento, para em seguida realizar o bloco, depois ele volta para o incremento e realiza o bloco novamente. 
+
+Estrutura:
+
+While:
+
+while (condição) {
+
+}
+
+Do: 
+
+do {
+
+} while (condição)
+
+For:
+
+for (incio; teste; incremento) {
+
+}
+
+Ex for;
+
+for (var c = 1;  c <= 10; c++) {
+        //bloco-função
+}
