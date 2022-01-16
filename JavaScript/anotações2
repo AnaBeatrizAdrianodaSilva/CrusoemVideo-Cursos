@@ -457,3 +457,25 @@ Ex for;
 for (var c = 1;  c <= 10; c++) {
         //bloco-função
 }
+
+
+=============================================================================================================================
+
+Variáveis simples -> Só conseguem armazenar um valor por vez.
+
+Variáveis compostas -> Devem ser capazes de armazenar vários valores em uma mesma estrutura.
+
+array -> vetor
+
+índice -> chave, chaves começam pelo número, então se tiver um vetor com 10 elementos o primeiro indice será 0.
+
+Um vetor é uma variável que tem vários elementos, cada elemento é composto por seu valor e por uma chave de identificação.
+
+EX:
+
+let num = [ 5, 8, 4,]
+
+5 possui indice 0
+8 possui indice 1
+4 possui indice 2
+
